@@ -1,5 +1,5 @@
 # Create a docker base image for nodejs, git and a few essentials
-FROM sirile/ubuntu
+FROM sirile/ubuntu:0.1
 MAINTAINER Ilkka Anttonen version: 0.1
 
 # Install node, npm
