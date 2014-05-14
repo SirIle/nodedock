@@ -1,6 +1,6 @@
 # Create a docker base image for nodejs, git and a few essentials
-FROM sirile/ubuntu:0.4
-MAINTAINER Ilkka Anttonen version: 0.4
+FROM sirile/ubuntu:0.5
+MAINTAINER Ilkka Anttonen version: 0.5
 
 # Install node, npm
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C7917B12
